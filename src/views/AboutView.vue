@@ -1,7 +1,12 @@
+<script>
+export default {
+  name: "AboutView",
+};
+</script>
 <template>
-  <div class="about">
+  <main>
     <h1>This is an about page</h1>
-  </div>
+  </main>
 </template>
 
 <style lang="scss" scoped></style>

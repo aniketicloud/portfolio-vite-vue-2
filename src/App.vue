@@ -1,9 +1,11 @@
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 export default {
   name: "AppComponent",
   components: {
     HeaderComponent,
+    FooterComponent,
   },
 };
 </script>
@@ -11,7 +13,8 @@ export default {
 <template>
   <div id="app">
     <HeaderComponent />
-    <router-view />
+    <router-view class="main-content" />
+    <FooterComponent class="footer" />
   </div>
 </template>
 

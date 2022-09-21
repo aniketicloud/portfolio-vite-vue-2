@@ -5,19 +5,17 @@
         alt="Vue logo"
         class="logo"
         src="@/assets/code.svg"
-        width="125"
-        height="125"
+        width="48"
+        height="48"
       />
-      <h1>Nikefy</h1>
+      <h2>Nikefy</h2>
     </div>
 
-    <div class="route-links">
-      <nav>
-        <router-link to="/">Home</router-link>
-        <router-link to="/projects">Projects</router-link>
-        <router-link to="/about">About</router-link>
-      </nav>
-    </div>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/projects">Projects</router-link>
+      <router-link to="/about">About</router-link>
+    </nav>
   </header>
 </template>
 
