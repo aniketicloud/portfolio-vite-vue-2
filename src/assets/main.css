@@ -1,1 +1,9 @@
 @import "./ress.css";
+@font-face {
+  font-family: "Bookerly";
+  src: local("Bookerly"), url("./fonts/Bookerly.ttf");
+}
+@font-face {
+  font-family: "Bookerly Bold";
+  src: local("Bookerly Bold"), url("./fonts/Bookerly_Bold.ttf");
+}
