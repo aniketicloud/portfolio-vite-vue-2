@@ -65,15 +65,18 @@ nav {
       right: 0;
       width: 0;
       overflow: hidden;
-      
     }
 
     &:hover {
       &::before {
         width: 100%;
-        transition: all 0.5s  ease-in-out;
+        transition: all 0.5s ease-in-out;
       }
     }
+  }
+
+  .nav-link.router-link-exact-active.router-link-active {
+    color: #8254ff;
   }
 }
 </style>

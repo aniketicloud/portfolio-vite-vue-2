@@ -1,5 +1,15 @@
 <template>
-  <footer>Footer Content</footer>
+  <footer>
+    <!-- Copyright -->
+    <!-- ❤️  -->
+      &copy; Developed with ❤️ by Aniket
+    <!-- Copyright -->
+  </footer>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+footer{
+  font-family: "Bookerly";
+  text-align: center;
+}
+</style>
