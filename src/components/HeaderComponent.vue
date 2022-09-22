@@ -77,6 +77,7 @@ nav {
 
   .nav-link.router-link-exact-active.router-link-active {
     color: #8254ff;
+    border-bottom: 2px solid currentColor;
   }
 }
 </style>
