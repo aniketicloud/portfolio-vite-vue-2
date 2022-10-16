@@ -217,23 +217,22 @@ export default {
   </section>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style lang="scss" scoped>
 // < 600px,
 // 600px > < 960px,
 // 960px > < 1264px*,
 // 1264px > < 1904px*,
 // > 1904px*
+section {
+  display: grid;
+  margin: 1rem 0.75rem 1rem 0.75rem;
+}
 main {
   font-family: "Bookerly Bold";
   text-align: center;
   display: grid;
-  // grid-template-rows: repeat(3, 10rem);
   row-gap: 0.75rem;
-  padding: 1rem 0 1rem 0;
+  padding-bottom: 1rem;
   h1 {
     font-size: 3rem;
   }
@@ -250,6 +249,16 @@ main {
   }
 }
 @media screen and (min-width: 600px) {
+  section {
+    margin: 1rem 1rem 1rem 1rem;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+
+    main {
+      align-content: center;
+      // align-items: center;
+    }
+  }
 }
 
 // Animating things like leaves
