@@ -1,7 +1,6 @@
 <template>
   <footer>
     <!-- Copyright -->
-    <!-- ❤️  -->
       &copy; Developed with ❤️ by Aniket
     <!-- Copyright -->
   </footer>
